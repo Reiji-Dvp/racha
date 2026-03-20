@@ -1,0 +1,37 @@
+{
+  "name": "Racha — futebol de verdade",
+  "short_name": "Racha",
+  "description": "O app da pelada. Organize suas partidas de futebol com facilidade.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d0d12",
+  "theme_color": "#0d0d12",
+  "lang": "pt-BR",
+  "categories": ["sports", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Em Campo",
+      "short_name": "Jogo",
+      "description": "Ir direto para a partida",
+      "url": "/?screen=game",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
